@@ -3,8 +3,9 @@
 from tkinter import *
 import random
 import time
-
+#Variável recebe o valor informado na tela
 level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n"))
+#variável nivel do jogo
 length = 500/level
 
 
@@ -21,12 +22,14 @@ root.update()
 # Variável
 count = 0
 lost = False
-
+#Classe Bola
 class Bola:
     def __init__(self, canvas, Barra, color):
         self.canvas = canvas
         self.Barra = Barra
+        #configura o tamanho da bolinha
         self.id = canvas.create_oval(0, 0, 15, 15, fill=color)
+        #local de iniciar a bolinha
         self.canvas.move(self.id, 245, 200)
 
         starts_x = [-3, -2, -1, 1, 2, 3]
@@ -133,7 +136,7 @@ def game_over():
 
 
 Barra = Barra(canvas, "orange")
-Bola = Bola(canvas, Barra, "purple")
+Bola = Bola(canvas, Barra, "red")
 
 
 score_now = canvas.create_text(430, 20, text="Pontos: " + str(count), fill = "green", font=("Arial", 16))

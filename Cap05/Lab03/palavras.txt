@@ -1,3 +1,10 @@
 bola
 casa
 massa
+invisibilidade
+macaco
+mala
+marmita
+tigresa
+neve
+carro

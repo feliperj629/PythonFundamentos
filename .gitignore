@@ -5,3 +5,6 @@
 .git
 .tmp
 .temp
+.gz
+.db
+.rar

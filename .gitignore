@@ -5,6 +5,8 @@
 .git
 .tmp
 .temp
-.gz
-.db
-.rar
+*.rar
+*.gz
+*.db
+*Solucao.ipynb
+*.db

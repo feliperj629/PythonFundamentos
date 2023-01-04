@@ -8,5 +8,4 @@
 *.rar
 *.gz
 *.db
-*Solucao.ipynb
-*.db
+*-Solucao.ipynb
